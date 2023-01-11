@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rightbar {
+   @apply w-96 fixed flex
+}
+
+.righbarWrapper {
+    @apply flex flex-col
+}
+.birthdayContainer{
+    @apply mt-4 w-[400px] mx-4 
+}
+
+.birthdayInfo {
+    @apply flex items-center py-3 rounded-md hover:bg-[#E9ECF0] p-2.5 duration-300 cursor-pointer
+}
+
+.birthdayImg {
+    @apply w-14 
+}
+
+.rightbarFriend {
+    @apply flex items-center gap-4 pr-2.5
+}
+
+.rightbarFriendImg {
+    @apply w-5 h-5 rounded-full 
+}

@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post {
+    @apply rounded-md mt-6 shadow-md shadow-gray-400 m-4 border bg-white
+}
+
+.postTop {
+    @apply flex justify-between items-center pt-3 px-4 pb-5 
+}
+
+.postTopLeft {
+    @apply flex items-center gap-4
+}
+
+.postProfileImg {
+    @apply w-14 h-14 rounded-full 
+}
+
+.postData {
+    @apply flex flex-col
+}
+
+.postUserName {
+    @apply text-xl font-semibold
+}
+
+.postDate {
+    @apply font-normal text-gray-400
+}
+
+.postTopRight {
+    @apply text-xl
+}
+
+.postCenter {
+    @apply flex justify-center flex-col
+}
+
+.postText {
+    @apply text-lg pl-4 pb-3
+}
+
+.postBottom {
+    @apply flex justify-between px-5 text-xl pt-4
+}
+
+.postOptions {
+    @apply flex justify-between border-t mt-4 py-1
+}
+
+.postOption {
+    @apply w-full text-center text-xl text-[#65676B] cursor-pointer hover:bg-slate-200 duration-500 rounded-md py-2
+}
+
+.postBottomContainer {
+    @apply w-full px-4
+}
+
+.postOptionReverse {
+    @apply w-40 text-center mx-10 text-xl text-[#65676B] cursor-pointer bg-slate-200 duration-500 rounded-md py-2 hover:bg-white hover:text-gray-600
+}
+
+.shareTop {
+    @apply flex border-b py-5 w-full px-5
+}
+
+.shareProfileImg {
+    @apply w-16 h-16 rounded-full mr-3
+}
+
+.shareInput {
+    @apply border  rounded-full px-5
+}

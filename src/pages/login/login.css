@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputLogin {
+    @apply p-3 text-2xl text-gray-600 border rounded-md px-5
+}
+
+.inputLogin:focus {
+    outline: none;
+}

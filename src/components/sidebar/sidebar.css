@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+    @apply w-[390px] pt-5 pl-2 gap-11 overflow-y-auto h-screen fixed
+}
+
+.sidebarImgProfile {
+    @apply pb-5 flex items-center pl-3
+}
+
+.sidebarListItem {
+    @apply hover:bg-[#E9ECF0] rounded-md duration-300 flex items-center py-4 pl-3 cursor-pointer
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179,179,179);
+
+}
+
+.sidebarListItemText {
+    @apply  font-semibold text-xl
+}
+
+.sidebarButton {
+    @apply w-2/5 px-5 py-3 rounded-md bg-gray-400 mb-5 text-white hover:bg-white hover:text-black border duration-300 hover:border-black
+}
+
+.sidebarFriend {
+    @apply flex items-center overflow-hidden relative rounded-full items-center justify-center w-14 h-14 mr-4 
+}
+
+
+.sidebarFriendImg {
+    @apply w-full h-full cursor-pointer
+}
+
+.sidebarFriendContainer {
+    @apply flex items-center font-semibold py-4
+}

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.panelMenuImgContainer {
+    @apply flex items-center overflow-hidden relative rounded-full items-center justify-center w-12 h-12 mr-5 
+}

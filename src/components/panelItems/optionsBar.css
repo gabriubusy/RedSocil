@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.topbarContainer {
+    @apply h-[70px] w-full bg-white flex sticky top-0 z-50 shadow-md shadow-slate-300
+}
+
+.topbarLeft {
+    @apply w-2/5 items-center flex gap-4
+}
+
+.logo {
+    @apply font-bold text-3xl px-10 text-white
+}
+
+.topbarSearch{
+    @apply w-4/12 relative items-center flex
+}
+
+.topbarCenter{
+    @apply w-2/4 relative items-center flex 
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarCenterIconContainer {
+    @apply w-28 h-full text-3xl flex items-center justify-center rounded-lg
+}
+
+.searchIcon {
+    @apply absolute top-0 py-4 text-xl px-5 text-black text-gray-500
+}
+
+.searchbar {
+    @apply text-black 2xl:text-sm text-xs font-normal border-solid border inline-block rounded-full
+}
+
+.searchInput {
+    @apply flex lg:flex-nowrap lg:justify-end justify-center items-center flex-wrap gap-5 rounded-full
+}
+
+.topbarRight {
+    @apply flex justify-end w-2/5 items-center
+}
+
+.topbarLinks {
+    @apply text-white flex text-xl cursor-pointer
+}
+
+.topbarIcons {
+    @apply flex gap-3 relative  cursor-pointer
+}
+
+.topbarIconsItem {
+    @apply bg-gray-secondary w-12 h-12 flex  items-center justify-center rounded-full
+}
+
+.topbarImgContainer {
+    @apply flex items-center overflow-hidden relative rounded-full items-center justify-center w-14 h-14 mr-5 
+}
+
+.topbarImg {
+    @apply w-full h-full cursor-pointer
+}
+
+.friendActive {
+    @apply flex items-center overflow-hidden relative rounded-full items-center justify-center w-14 h-14
+}
+ 
+.friendActiveImg {
+    @apply w-full h-full cursor-pointer
+}

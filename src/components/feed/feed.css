@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.feed {
+    @apply flex items-center justify-center w-[45%]
+}

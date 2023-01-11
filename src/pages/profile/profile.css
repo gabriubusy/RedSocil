@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgContainer {
+    @apply w-full bg-white flex justify-center 
+}
+
+.imgSize {
+    @apply w-full h-[440px]
+}
+
+.topbarImg {
+    @apply w-full h-full cursor-pointer
+}
+
+.file-select > input[type="file"] {
+    display: none;
+}

@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.share {
+    @apply rounded-md shadow-md shadow-slate-300 m-4 border bg-white
+}
+
+.shareWrapper {
+    @apply pb-5
+}
+
+.shareTop {
+    @apply flex border-b pb-5
+}
+
+.shareProfileImg {
+    @apply w-14 h-14 rounded-full 
+}
+
+.shareInput {
+    @apply w-full py-3 bg-gray-200 text-xl text-gray-500
+}
+
+.shareInput:focus {
+    outline: none;
+}
+
+.shareBottom {
+    @apply flex items-center justify-center py-3 gap-10
+}
+
+.shareOptionText {
+    @apply font-semibold text-xl text-[#65676B]
+}
+
+.shareOption {
+    @apply flex items-center
+}
+
+.shreIcon {
+    @apply text-xl pr-2
+}
+
+.shareButtonContainer {
+    @apply w-full px-10
+}
+
+.shareButton {
+    @apply bg-green-600 w-full py-2.5 rounded-lg text-white text-xl font-bold hover:bg-white hover:text-green-600 hover:border-green-600 border duration-300
+}

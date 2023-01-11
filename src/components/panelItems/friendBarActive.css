@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.friendBar {
+   @apply overflow-y-auto h-[53%]
+}
+
+.textPrimaryContainer {
+    @apply flex text-xl text-gray-500 px-4 fixed bg-[#F5F5F5] z-50 justify-between w-[425px] py-4
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179,179,179);
+
+}
+.friendActive {
+    @apply flex items-center overflow-hidden relative rounded-full items-center justify-center w-10 h-10 mr-4 
+}
+
+.friendActiveImg {
+    @apply w-full h-full cursor-pointer
+}
+
+.friendActiveContainer {
+    @apply flex items-center font-semibold py-2 px-2 rounded-lg w-[395px]
+}
